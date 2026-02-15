@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio Diagnolab | Análisis Clínicos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #1f2933;
+        }
+
+        header {
+            background-color: #0b7285;
+            color: white;
+            padding: 20px;
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-content img {
+            height: 60px;
+        }
+
+        nav {
+            background-color: #083344;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+            background-color: white;
+        }
+
+        h2 {
+            color: #0b7285;
+            margin-top: 40px;
+        }
+
+        .alert {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 6px solid #ffc107;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        details {
+            margin-bottom: 12px;
+            background-color: #f8fafc;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 14px 18px;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #083344;
+            color: white;
+            padding: 30px 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="logo.png" alt="Laboratorio Diagnolab">
+        <div>
+            <h1>Laboratorio Diagnolab</h1>
+            <p>Análisis Clínicos</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#faq">Preguntas Frecuentes</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+
+    <div class="alert">
+        ⚠️ <strong>Aviso médico:</strong>
+        La información presentada en este sitio es únicamente informativa y no sustituye
+        la evaluación, diagnóstico ni tratamiento por un profesional de la salud.
+    </div>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h2>🧪 Servicios de Laboratorio</h2>
+        <ul>
+            <li>Hematología completa</li>
+            <li>Examen general de orina</li>
+            <li>Examen general de heces</li>
+            <li>Pruebas de dengue</li>
+            <li>Helicobacter pylori</li>
+            <li>Pruebas de embarazo</li>
+            <li>Pruebas prenatales</li>
+        </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>❓ Preguntas Frecuentes</h2>
+
+        <details>
+            <summary>¿Cuántas horas debo estar en ayuno?</summary>
+            <p>Entre 8 y 12 horas para exámenes como glucosa y perfil lipídico. Solo se permite agua.</p>
+        </details>
+
+        <details>
+            <summary>¿Qué significa tener la hemoglobina baja?</summary>
+            <p>Puede indicar anemia. Se recomienda evaluar otros parámetros y consultar a su médico.</p>
+        </details>
+
+        <details>
+            <summary>¿La orina turbia es normal?</summary>
+            <p>Puede deberse a infección urinaria, deshidratación o presencia de cristales.</p>
+        </details>
+
+        <details>
+            <summary>¿El examen de heces detecta parásitos?</summary>
+            <p>Sí. En algunos casos se solicitan varias muestras para mayor precisión.</p>
+        </details>
+
+        <details>
+            <summary>¿La prueba de embarazo es confiable?</summary>
+            <p>Sí, especialmente después de la falta menstrual.</p>
+        </details>
+    </section>
+
+    <!-- HORARIOS -->
+    <section id="horarios">
+        <h2>🕒 Horarios de Atención</h2>
+        <ul>
+            <li>Lunes a viernes: <strong>7:00 a.m. – 5:00 p.m.</strong></li>
+            <li>Sábado: <strong>8:00 a.m. – 1:00 p.m.</strong></li>
+            <li>Atención por orden de llegada</li>
+        </ul>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>📍 Contacto y Ubicaciones</h2>
+        <p>
+            <strong>Sede La Cuchilla:</strong><br>
+            Aldea Bolivia, La Cuchilla<br>
+            A un costado del depósito Don Chato
+            <br><br>
+            <strong>Sede Tiquisate:</strong><br>
+            12 calle, zona 1<br>
+            Tiquisate, Escuintla
+            <br><br>
+            📱 <strong>WhatsApp: 3605 1656</strong>
+        </p>
+    </section>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/50236051656?text=Hola,%20deseo%20información%20sobre%20exámenes%20de%20laboratorio." target="_blank">
+    WhatsApp
+</a>
+
+<footer>
+    <div class="footer-content">
+        <strong>Laboratorio Diagnolab</strong><br>
+        Análisis Clínicos<br><br>
+
+        Aldea Bolivia, La Cuchilla – Don Chato<br>
+        12 calle, zona 1, Tiquisate, Escuintla<br>
+        📱 3605 1656<br><br>
+
+        Horario de atención:<br>
+        Lunes a viernes: 7:00 a.m. – 5:00 p.m.<br>
+        Sábado: 8:00 a.m. – 1:00 p.m.<br><br>
+
+        Atención responsable • Confidencialidad • Compromiso con la salud<br><br>
+        © 2026 Laboratorio Diagnolab
+    </div>
+</footer>
+
+</body>
+</html>
